@@ -4,7 +4,7 @@
   "platform": "4.2.2",
   "metadata": {
     "appmode": "rmd-static",
-    "primary_rmd": "2d_math_alprazolam.rmd",
+    "primary_rmd": "app.var.R",
     "primary_html": null,
     "content_category": null,
     "has_parameters": false
