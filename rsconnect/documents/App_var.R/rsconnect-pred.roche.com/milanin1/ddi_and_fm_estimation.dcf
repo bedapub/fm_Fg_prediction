@@ -1,0 +1,14 @@
+name: ddi_and_fm_estimation
+title: ddi_and_fm_estimation
+username: milanin1
+account: milanin1
+server: rsconnect-pred.roche.com
+hostUrl: https://rsconnect-pred.roche.com/__api__
+appId: 791
+bundleId: 11935
+url: https://rsconnect-pred.roche.com/content/7e609ecc-5efb-43cf-b3b5-6d12f326e849/
+when: 1733404015.49609
+lastSyncTime: 1733404015.4961
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: 1210_compounds_results.csv|2d_math_alprazolam.rmd|2d_mathe_alprazolam_KTZ.png|2d_theoretical_1comp.rds|App_var_dash.R|app.R|Boulenc_CYP3A_MDZ_APZ_KTZ_2016.csv|GDSA.R|mathematical 2D.rtf|Param_uncertainty.R|R_script_test.R
