@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacokinetic and DDI Study Parameters</title>
+</head>
+<body>
+   <h2>Body Weight (BW) of Subjects, Height, and Age</h2>
+        <p>The confidence interval is calculated based on the typical population used in the study, which includes both males and females. The user can adjust the sex ratio, and along with changes in height and age, this can affect the hepatic blood flow (calculation of Qh for each subject).</p>
+        <p>Typical body weights are as follows:</p>
+        <ul>
+            <li>Typical BW of male: 81 Kg</li>
+            <li>Typical BW of female: 69 Kg</li>
+            <li>Typical BW log SD of male: 0.0365</li>
+            <li>Typical BW log SD of female: 0.0365</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Calculation of Qh for Each Subject</h2>
+        <p>The following equations were used to calculate the Q of each subject. The selection of subjects based on input parameters is done using the Latin Hypercube Sampling (LHS) method.
+LHS is a statistical technique that ensures efficient and comprehensive exploration of parameters by sampling the more representative sample with fewer iterations compared to random sampling.</p>
+        <ul>
+            <li>BSA = 0.007184 * WT<sup>0.425</sup> * Height<sup>0.725</sup></li>
+            <li>CO = BSA * (194.15 + 4046.7 * (exp(-0.2117 * Age) - exp(-0.224 * Age)))</li>
+            <li>Qh = CO * (Sex_ratio * 0.28 + (1 - Sex_ratio) * 0.255)</li>
+        </ul>
+        <p>CO (Cardiac Output): This is the volume of blood the heart pumps per minute, typically measured in liters per minute (L/min).
+BSA (Body Surface Area) in m2
+Age: This is the age of the individual in years.
+Constants (194.15 and 4046.7): These are empirically derived constants that scale the contributions of the exponential terms to the cardiac output.<p>
+    </section>
+   </section>
+  </ul>
+
+   <h2>Additional parameters for the calculation</h2>
+  
+<p>More advanced parameters can be modify in order to further customize the prediction. 
+If the "Show segments variabilty" is ticked the interesection of the curves which provides the lower, the upper, and the typical value of the fm and the FG is displayed in the plot
+Additional paraemters can be changed such as the Height, the Age which are used as covariate in the model and the Sex ratio (female/male)
+The number of samplings is the number of repetions that are used to predict the parameters. In order to have less varaiblity due to the randomness is suggested to increase this parameters (100 is the dafualt value) even though it involves longer calcualtion time.
+The number of points are the number of steps beetween 0 and 1 which are used to define the FG(CMAX) and the fm(AUC)<p> 
+        </ul>
+
+    <section>
+</body>
+</html> 

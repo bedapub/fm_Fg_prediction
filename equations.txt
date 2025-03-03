@@ -1,0 +1,41 @@
+\begin{align*}
+
+{FG}_{AUCR} &= \left( \frac{{CL_{Hint} \cdot (Q_h + CL_{RB}) + Q_h \cdot CL_{RB}}}{{AUCR \cdot \left( (inh_H \cdot fm \cdot CL_{Hint} + (1 - fm) \cdot CL_{Hint}) \cdot (Q_h + CL_{RB}) + Q_h \cdot CL_{RB} \right) \cdot (1 - inh_G)}} \right) - \left( \frac{{inh_G}}{{1 - inh_G}} \right)
+
+\\\\
+{FG}_{CmaxR} &= \left( \frac{{CL_{Hint} + Q_h}}{{(Q_h + inh_H \cdot fm \cdot CL_{Hint} + (1 - fm) \cdot CL_{Hint}) \cdot (1 - inh_G)}} \right) \cdot \left( \frac{1}{{CMAXR}} \right) \cdot \left( \frac{{\exp(-k_{ei} \cdot t_{maxi})}}{{\exp(-k_e \cdot t_{max})}} \right) - \left( \frac{{inh_G}}{{1 - inh_G}} \right)
+
+\\\\
+CL_b &= \frac{CL_p}{R_b} 
+
+\\\\
+CL_{Hint} &= \frac{CL_b}{fub \cdot \left(1 - \frac{CL_b}{Q_h}\right)}
+
+\\\\
+CL_{RB} &= \frac{CLR}{BP}
+
+\\\\
+
+\text{f}_m &: \text{fraction metabolised} \\\\
+\text{F}_G &: \text{fraction escape gastro-intestinal metabolism} \\\\
+
+\text{fu}_{b} &: \text{Fraction unbound in blood} \\\\
+\text{BP} &:\text{blood to plasma ratio} \\\\
+\text{CL}_{p} &: \text{plasma clearance} \\\\
+\text{CL}_{R} &: renal clearance \\\\
+\text{Q}_h &: \text{hepatic blood flow, used: 97 L/h (Yang and Jamei (2007)) } \\\\
+
+\text{inh}_H &: \text{% of hepatic CYPs inhibition} \\\\
+\text{inh}_G &: \text{% of gastro-intestinal CYPs inhibition} \\\\
+
+
+\text{k}_e &: \text{elimination rate constant} \\\\
+\text{k}_{ei} &: \text{elimination rate constant in the inhibited condition} \\\\
+
+\text{t}_{max} &: \text{time at Cmax} (h) \\\\
+\text{t}_{maxi} &: \text{time at Cmax in inhibited condition} (h)\\\\
+
+\text{AUCR} &: \text{AUC inhibition/AUC no inhibition} \\\\
+\text{CMAXR} &: \text{CMAX inhibition/CMAX no inhibition} \\\\
+
+\end{align*}

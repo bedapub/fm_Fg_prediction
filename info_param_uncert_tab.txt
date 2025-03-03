@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacokinetic and DDI Study Parameters</title>
+</head>
+<body>
+    <h1>Pharmacokinetic and DDI Study Parameters</h1>
+    <section>
+        <h2>Pharmacokinetic (PK) Values</h2>
+        <p>The typical PK values of the drug include:</p>
+        <ul>
+            <li>IV plasma clearance</li>
+            <li>Blood to plasma ratio</li>
+            <li>Distribution volume</li>
+        </ul>
+        <p>The model also considers extra hepatic clearance, which is assumed to be 0 by default (no extra hepatic clearance). The renal clearance and the inhibition percentage of the gut metabolism can be adjusted.</p>
+    </section>
+    <section>
+        <h2>Drug-Drug Interaction (DDI) Study Parameters</h2>
+        <p>Typical values for a DDI study include:</p>
+        <ul>
+            <li>AUC ratio (with and without inhibition)</li>
+            <li>CMAX ratio (with and without inhibition)</li>
+            <li>Time to maximum concentration (Tmax) for oral administration (PO)</li>
+            <li>Body weight of the subjects</li>
+        </ul>
+        <p>These parameters can be adjusted to reflect different study conditions.</p>
+    </section>
+    <section>
+</body>
+</html>
