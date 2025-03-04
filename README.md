@@ -1,5 +1,3 @@
-# fm Fg prediction from a 2D method
-
 # Simultaneous Estimation of In Vivo fm and F_G from Clinical DDI Study Data
 
 This repository presents an innovative method for the simultaneous estimation of in vivo fraction metabolized (fm) and gut bioavailability (FG) directly from clinical drug-drug interaction (DDI) study data. These methods have been rigorously evaluated using substrates that encompass a wide range of fm, FG, clearance, absorption, and distribution properties, utilizing both simulated and published clinical DDI study data (ref. lit.).
