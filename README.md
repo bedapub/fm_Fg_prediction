@@ -15,4 +15,4 @@ The novel methods described here are designed to enhance the robustness of DDI e
 For more detailed information on the implementation and evaluation of these methods, please refer to the documentation and examples provided in this repository.
 
 ## Link to Posit app
-The [link](https://nicolomilani-fm-fg-prediction.share.connect.posit.cloud) to run the app in a flexible way without having any R library installed locally. 
+The [link](https://019970a9-780b-6e9b-0540-4fdc77cae31b.share.connect.posit.cloud/) to run the app in a flexible way without having any R library installed locally. 
