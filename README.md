@@ -15,4 +15,4 @@ The novel methods described here are designed to enhance the robustness of DDI e
 For more detailed information on the implementation and evaluation of these methods, please refer to the documentation and examples provided in this repository.
 
 ## Link to Posit app
-The [link](https://01997076-2aec-ca76-4e21-d45522b1ee52.share.connect.posit.cloud) to run the app in a flexible way without having any R library installed locally. 
+The [link](https://01997076-2aec-ca76-4e21-d45522b1ee52.share.connect.posit.cloud/) to run the app in a flexible way without having any R library installed locally. 
